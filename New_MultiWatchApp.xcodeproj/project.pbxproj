@@ -7,21 +7,160 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6662CA635D8B02FC05E1F664 /* Pods_New_MultiWatchApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE1E99481506BE77ED25FA2A /* Pods_New_MultiWatchApp.framework */; };
+		AF84C1371D2458BF00E42CC8 /* AlarmMainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF84C1361D2458BF00E42CC8 /* AlarmMainVC.swift */; };
+		AF84C1391D24728E00E42CC8 /* CollectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF84C1381D24728E00E42CC8 /* CollectionVC.swift */; };
+		AF84C13B1D2474D000E42CC8 /* palettes.plist in Resources */ = {isa = PBXBuildFile; fileRef = AF84C13A1D2474D000E42CC8 /* palettes.plist */; };
 		AFBD6B871D24296D00060C13 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFBD6B861D24296D00060C13 /* AppDelegate.swift */; };
-		AFBD6B891D24296D00060C13 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFBD6B881D24296D00060C13 /* ViewController.swift */; };
-		AFBD6B8C1D24296D00060C13 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFBD6B8A1D24296D00060C13 /* Main.storyboard */; };
 		AFBD6B8E1D24296D00060C13 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFBD6B8D1D24296D00060C13 /* Assets.xcassets */; };
 		AFBD6B911D24296D00060C13 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFBD6B8F1D24296D00060C13 /* LaunchScreen.storyboard */; };
+		AFBD6B991D242B4D00060C13 /* ContainerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFBD6B981D242B4D00060C13 /* ContainerVC.swift */; };
+		AFBD6B9E1D242C4800060C13 /* HomeClockVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFBD6B9A1D242C4800060C13 /* HomeClockVC.swift */; };
+		AFBD6B9F1D242C4800060C13 /* DigitClockVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFBD6B9B1D242C4800060C13 /* DigitClockVC.swift */; };
+		AFBD6BA01D242C4800060C13 /* ImgClockVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFBD6B9C1D242C4800060C13 /* ImgClockVC.swift */; };
+		AFBD6BA11D242C4800060C13 /* BigDigitClockVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFBD6B9D1D242C4800060C13 /* BigDigitClockVC.swift */; };
+		AFBD6BA41D242D1C00060C13 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFBD6BA21D242D1C00060C13 /* Utilities.swift */; };
+		AFBD6BA51D242D1C00060C13 /* MainParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFBD6BA31D242D1C00060C13 /* MainParameters.swift */; };
+		AFBD6BA81D242D6600060C13 /* ClockView.m in Sources */ = {isa = PBXBuildFile; fileRef = AFBD6BA71D242D6600060C13 /* ClockView.m */; };
+		AFBD6BB21D24303F00060C13 /* newCities.csv in Resources */ = {isa = PBXBuildFile; fileRef = AFBD6BB11D24303F00060C13 /* newCities.csv */; };
+		AFBD6BB41D24306000060C13 /* seg.png in Resources */ = {isa = PBXBuildFile; fileRef = AFBD6BB31D24306000060C13 /* seg.png */; };
+		AFBD6BC31D2430A200060C13 /* 909 at 117-long.caf in Resources */ = {isa = PBXBuildFile; fileRef = AFBD6BB51D2430A200060C13 /* 909 at 117-long.caf */; };
+		AFBD6BC41D2430A200060C13 /* Arpeggiate-4-long.caf in Resources */ = {isa = PBXBuildFile; fileRef = AFBD6BB61D2430A200060C13 /* Arpeggiate-4-long.caf */; };
+		AFBD6BC51D2430A200060C13 /* Boss 110-3-long.caf in Resources */ = {isa = PBXBuildFile; fileRef = AFBD6BB71D2430A200060C13 /* Boss 110-3-long.caf */; };
+		AFBD6BC61D2430A200060C13 /* Calculating-2-long.caf in Resources */ = {isa = PBXBuildFile; fileRef = AFBD6BB81D2430A200060C13 /* Calculating-2-long.caf */; };
+		AFBD6BC71D2430A200060C13 /* Jitterchord-2-long.caf in Resources */ = {isa = PBXBuildFile; fileRef = AFBD6BB91D2430A200060C13 /* Jitterchord-2-long.caf */; };
+		AFBD6BC81D2430A200060C13 /* Noise Chip-long.caf in Resources */ = {isa = PBXBuildFile; fileRef = AFBD6BBA1D2430A200060C13 /* Noise Chip-long.caf */; };
+		AFBD6BC91D2430A200060C13 /* wBeep-long.caf in Resources */ = {isa = PBXBuildFile; fileRef = AFBD6BBB1D2430A200060C13 /* wBeep-long.caf */; };
+		AFBD6BCA1D2430A200060C13 /* 909 at 117.wav in Resources */ = {isa = PBXBuildFile; fileRef = AFBD6BBC1D2430A200060C13 /* 909 at 117.wav */; };
+		AFBD6BCB1D2430A200060C13 /* Arpeggiate.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AFBD6BBD1D2430A200060C13 /* Arpeggiate.mp3 */; };
+		AFBD6BCC1D2430A200060C13 /* Boss 110.wav in Resources */ = {isa = PBXBuildFile; fileRef = AFBD6BBE1D2430A200060C13 /* Boss 110.wav */; };
+		AFBD6BCD1D2430A200060C13 /* Calculating.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AFBD6BBF1D2430A200060C13 /* Calculating.mp3 */; };
+		AFBD6BCE1D2430A200060C13 /* Jitterchord.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AFBD6BC01D2430A200060C13 /* Jitterchord.mp3 */; };
+		AFBD6BCF1D2430A200060C13 /* Noise Chip.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AFBD6BC11D2430A200060C13 /* Noise Chip.mp3 */; };
+		AFBD6BD01D2430A200060C13 /* wBeep.wav in Resources */ = {isa = PBXBuildFile; fileRef = AFBD6BC21D2430A200060C13 /* wBeep.wav */; };
+		AFBD6BF71D2430C300060C13 /* Splash.png in Resources */ = {isa = PBXBuildFile; fileRef = AFBD6BD41D2430C300060C13 /* Splash.png */; };
+		AFBD6BF81D2430C300060C13 /* Splash@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AFBD6BD51D2430C300060C13 /* Splash@2x.png */; };
+		AFBD6BF91D2430C300060C13 /* Splash@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = AFBD6BD61D2430C300060C13 /* Splash@3x.png */; };
+		AFBD6BFA1D2430C300060C13 /* alarm-note-jp.png in Resources */ = {isa = PBXBuildFile; fileRef = AFBD6BD71D2430C300060C13 /* alarm-note-jp.png */; };
+		AFBD6BFB1D2430C300060C13 /* alarm-note4-jp.png in Resources */ = {isa = PBXBuildFile; fileRef = AFBD6BD81D2430C300060C13 /* alarm-note4-jp.png */; };
+		AFBD6BFC1D2430C300060C13 /* alarm-note4-jp@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AFBD6BD91D2430C300060C13 /* alarm-note4-jp@2x.png */; };
+		AFBD6BFD1D2430C300060C13 /* instructions.png in Resources */ = {isa = PBXBuildFile; fileRef = AFBD6BDA1D2430C300060C13 /* instructions.png */; };
+		AFBD6BFE1D2430C300060C13 /* instructions@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AFBD6BDB1D2430C300060C13 /* instructions@2x.png */; };
+		AFBD6BFF1D2430C300060C13 /* instructions-jp.png in Resources */ = {isa = PBXBuildFile; fileRef = AFBD6BDC1D2430C300060C13 /* instructions-jp.png */; };
+		AFBD6C001D2430C300060C13 /* instructions-jp@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AFBD6BDD1D2430C300060C13 /* instructions-jp@2x.png */; };
+		AFBD6C011D2430C300060C13 /* settings-note-jp.png in Resources */ = {isa = PBXBuildFile; fileRef = AFBD6BDE1D2430C300060C13 /* settings-note-jp.png */; };
+		AFBD6C021D2430C300060C13 /* about-background.png in Resources */ = {isa = PBXBuildFile; fileRef = AFBD6BDF1D2430C300060C13 /* about-background.png */; };
+		AFBD6C031D2430C300060C13 /* about-background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AFBD6BE01D2430C300060C13 /* about-background@2x.png */; };
+		AFBD6C041D2430C300060C13 /* alarm-note4.png in Resources */ = {isa = PBXBuildFile; fileRef = AFBD6BE11D2430C300060C13 /* alarm-note4.png */; };
+		AFBD6C051D2430C300060C13 /* alarm-note4@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AFBD6BE21D2430C300060C13 /* alarm-note4@2x.png */; };
+		AFBD6C061D2430C300060C13 /* alarmbell-1.png in Resources */ = {isa = PBXBuildFile; fileRef = AFBD6BE31D2430C300060C13 /* alarmbell-1.png */; };
+		AFBD6C071D2430C300060C13 /* alarmbell-2.png in Resources */ = {isa = PBXBuildFile; fileRef = AFBD6BE41D2430C300060C13 /* alarmbell-2.png */; };
+		AFBD6C081D2430C300060C13 /* alarmbell-3.png in Resources */ = {isa = PBXBuildFile; fileRef = AFBD6BE51D2430C300060C13 /* alarmbell-3.png */; };
+		AFBD6C091D2430C300060C13 /* alarmbell-1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AFBD6BE61D2430C300060C13 /* alarmbell-1@2x.png */; };
+		AFBD6C0A1D2430C300060C13 /* alarmbell-2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AFBD6BE71D2430C300060C13 /* alarmbell-2@2x.png */; };
+		AFBD6C0B1D2430C300060C13 /* alarmbell-3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AFBD6BE81D2430C300060C13 /* alarmbell-3@2x.png */; };
+		AFBD6C0C1D2430C300060C13 /* checkmark-wshadow.png in Resources */ = {isa = PBXBuildFile; fileRef = AFBD6BE91D2430C300060C13 /* checkmark-wshadow.png */; };
+		AFBD6C0D1D2430C300060C13 /* checkmark-wshadow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AFBD6BEA1D2430C300060C13 /* checkmark-wshadow@2x.png */; };
+		AFBD6C0E1D2430C300060C13 /* about-logo-down.png in Resources */ = {isa = PBXBuildFile; fileRef = AFBD6BEB1D2430C300060C13 /* about-logo-down.png */; };
+		AFBD6C0F1D2430C300060C13 /* about-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = AFBD6BEC1D2430C300060C13 /* about-logo.png */; };
+		AFBD6C101D2430C300060C13 /* alarm-note.png in Resources */ = {isa = PBXBuildFile; fileRef = AFBD6BED1D2430C300060C13 /* alarm-note.png */; };
+		AFBD6C111D2430C300060C13 /* settings-note.png in Resources */ = {isa = PBXBuildFile; fileRef = AFBD6BEE1D2430C300060C13 /* settings-note.png */; };
+		AFBD6C121D2430C300060C13 /* multiClock_alarm_down@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AFBD6BEF1D2430C300060C13 /* multiClock_alarm_down@2x.png */; };
+		AFBD6C131D2430C300060C13 /* multiClock_alarm_up@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AFBD6BF01D2430C300060C13 /* multiClock_alarm_up@2x.png */; };
+		AFBD6C141D2430C300060C13 /* multiClock_alarm_down.png in Resources */ = {isa = PBXBuildFile; fileRef = AFBD6BF11D2430C300060C13 /* multiClock_alarm_down.png */; };
+		AFBD6C151D2430C300060C13 /* multiClock_alarm_up.png in Resources */ = {isa = PBXBuildFile; fileRef = AFBD6BF21D2430C300060C13 /* multiClock_alarm_up.png */; };
+		AFBD6C161D2430C300060C13 /* multiClock_info_down@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AFBD6BF31D2430C300060C13 /* multiClock_info_down@2x.png */; };
+		AFBD6C171D2430C300060C13 /* multiClock_info_down.png in Resources */ = {isa = PBXBuildFile; fileRef = AFBD6BF41D2430C300060C13 /* multiClock_info_down.png */; };
+		AFBD6C181D2430C300060C13 /* multiClock_info_up@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AFBD6BF51D2430C300060C13 /* multiClock_info_up@2x.png */; };
+		AFBD6C191D2430C300060C13 /* multiClock_info_up.png in Resources */ = {isa = PBXBuildFile; fileRef = AFBD6BF61D2430C300060C13 /* multiClock_info_up.png */; };
+		AFBD6C231D2431FF00060C13 /* SongListTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFBD6C1B1D2431FF00060C13 /* SongListTVC.swift */; };
+		AFBD6C241D2431FF00060C13 /* MainTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFBD6C1C1D2431FF00060C13 /* MainTableVC.swift */; };
+		AFBD6C251D2431FF00060C13 /* SettingTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFBD6C1D1D2431FF00060C13 /* SettingTVC.swift */; };
+		AFBD6C271D2431FF00060C13 /* AlarmVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFBD6C1F1D2431FF00060C13 /* AlarmVC.swift */; };
+		AFBD6C291D2431FF00060C13 /* HelpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFBD6C211D2431FF00060C13 /* HelpVC.swift */; };
+		AFBD6C2A1D2431FF00060C13 /* AboutVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFBD6C221D2431FF00060C13 /* AboutVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1167EAC9F723EA8C7426FCDB /* Pods-New_MultiWatchApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-New_MultiWatchApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-New_MultiWatchApp/Pods-New_MultiWatchApp.debug.xcconfig"; sourceTree = "<group>"; };
+		AF84C1361D2458BF00E42CC8 /* AlarmMainVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlarmMainVC.swift; sourceTree = "<group>"; };
+		AF84C1381D24728E00E42CC8 /* CollectionVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionVC.swift; sourceTree = "<group>"; };
+		AF84C13A1D2474D000E42CC8 /* palettes.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = palettes.plist; sourceTree = "<group>"; };
 		AFBD6B831D24296C00060C13 /* New_MultiWatchApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = New_MultiWatchApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFBD6B861D24296D00060C13 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AFBD6B881D24296D00060C13 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		AFBD6B8B1D24296D00060C13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AFBD6B8D1D24296D00060C13 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AFBD6B901D24296D00060C13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AFBD6B921D24296D00060C13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AFBD6B981D242B4D00060C13 /* ContainerVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContainerVC.swift; sourceTree = "<group>"; };
+		AFBD6B9A1D242C4800060C13 /* HomeClockVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeClockVC.swift; sourceTree = "<group>"; };
+		AFBD6B9B1D242C4800060C13 /* DigitClockVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DigitClockVC.swift; sourceTree = "<group>"; };
+		AFBD6B9C1D242C4800060C13 /* ImgClockVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImgClockVC.swift; sourceTree = "<group>"; };
+		AFBD6B9D1D242C4800060C13 /* BigDigitClockVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BigDigitClockVC.swift; sourceTree = "<group>"; };
+		AFBD6BA21D242D1C00060C13 /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		AFBD6BA31D242D1C00060C13 /* MainParameters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainParameters.swift; sourceTree = "<group>"; };
+		AFBD6BA61D242D6600060C13 /* ClockView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClockView.h; sourceTree = "<group>"; };
+		AFBD6BA71D242D6600060C13 /* ClockView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClockView.m; sourceTree = "<group>"; };
+		AFBD6BB01D242E5600060C13 /* New_MultiWatchApp-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "New_MultiWatchApp-Header.h"; sourceTree = SOURCE_ROOT; };
+		AFBD6BB11D24303F00060C13 /* newCities.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = newCities.csv; sourceTree = "<group>"; };
+		AFBD6BB31D24306000060C13 /* seg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = seg.png; sourceTree = "<group>"; };
+		AFBD6BB51D2430A200060C13 /* 909 at 117-long.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "909 at 117-long.caf"; sourceTree = "<group>"; };
+		AFBD6BB61D2430A200060C13 /* Arpeggiate-4-long.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Arpeggiate-4-long.caf"; sourceTree = "<group>"; };
+		AFBD6BB71D2430A200060C13 /* Boss 110-3-long.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Boss 110-3-long.caf"; sourceTree = "<group>"; };
+		AFBD6BB81D2430A200060C13 /* Calculating-2-long.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Calculating-2-long.caf"; sourceTree = "<group>"; };
+		AFBD6BB91D2430A200060C13 /* Jitterchord-2-long.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Jitterchord-2-long.caf"; sourceTree = "<group>"; };
+		AFBD6BBA1D2430A200060C13 /* Noise Chip-long.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Noise Chip-long.caf"; sourceTree = "<group>"; };
+		AFBD6BBB1D2430A200060C13 /* wBeep-long.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "wBeep-long.caf"; sourceTree = "<group>"; };
+		AFBD6BBC1D2430A200060C13 /* 909 at 117.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "909 at 117.wav"; sourceTree = "<group>"; };
+		AFBD6BBD1D2430A200060C13 /* Arpeggiate.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Arpeggiate.mp3; sourceTree = "<group>"; };
+		AFBD6BBE1D2430A200060C13 /* Boss 110.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Boss 110.wav"; sourceTree = "<group>"; };
+		AFBD6BBF1D2430A200060C13 /* Calculating.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Calculating.mp3; sourceTree = "<group>"; };
+		AFBD6BC01D2430A200060C13 /* Jitterchord.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Jitterchord.mp3; sourceTree = "<group>"; };
+		AFBD6BC11D2430A200060C13 /* Noise Chip.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Noise Chip.mp3"; sourceTree = "<group>"; };
+		AFBD6BC21D2430A200060C13 /* wBeep.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = wBeep.wav; sourceTree = "<group>"; };
+		AFBD6BD21D2430B300060C13 /* Helvetica-edit.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Helvetica-edit.ttf"; sourceTree = "<group>"; };
+		AFBD6BD41D2430C300060C13 /* Splash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Splash.png; sourceTree = "<group>"; };
+		AFBD6BD51D2430C300060C13 /* Splash@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Splash@2x.png"; sourceTree = "<group>"; };
+		AFBD6BD61D2430C300060C13 /* Splash@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Splash@3x.png"; sourceTree = "<group>"; };
+		AFBD6BD71D2430C300060C13 /* alarm-note-jp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "alarm-note-jp.png"; sourceTree = "<group>"; };
+		AFBD6BD81D2430C300060C13 /* alarm-note4-jp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "alarm-note4-jp.png"; sourceTree = "<group>"; };
+		AFBD6BD91D2430C300060C13 /* alarm-note4-jp@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "alarm-note4-jp@2x.png"; sourceTree = "<group>"; };
+		AFBD6BDA1D2430C300060C13 /* instructions.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = instructions.png; sourceTree = "<group>"; };
+		AFBD6BDB1D2430C300060C13 /* instructions@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "instructions@2x.png"; sourceTree = "<group>"; };
+		AFBD6BDC1D2430C300060C13 /* instructions-jp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "instructions-jp.png"; sourceTree = "<group>"; };
+		AFBD6BDD1D2430C300060C13 /* instructions-jp@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "instructions-jp@2x.png"; sourceTree = "<group>"; };
+		AFBD6BDE1D2430C300060C13 /* settings-note-jp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "settings-note-jp.png"; sourceTree = "<group>"; };
+		AFBD6BDF1D2430C300060C13 /* about-background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "about-background.png"; sourceTree = "<group>"; };
+		AFBD6BE01D2430C300060C13 /* about-background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "about-background@2x.png"; sourceTree = "<group>"; };
+		AFBD6BE11D2430C300060C13 /* alarm-note4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "alarm-note4.png"; sourceTree = "<group>"; };
+		AFBD6BE21D2430C300060C13 /* alarm-note4@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "alarm-note4@2x.png"; sourceTree = "<group>"; };
+		AFBD6BE31D2430C300060C13 /* alarmbell-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "alarmbell-1.png"; sourceTree = "<group>"; };
+		AFBD6BE41D2430C300060C13 /* alarmbell-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "alarmbell-2.png"; sourceTree = "<group>"; };
+		AFBD6BE51D2430C300060C13 /* alarmbell-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "alarmbell-3.png"; sourceTree = "<group>"; };
+		AFBD6BE61D2430C300060C13 /* alarmbell-1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "alarmbell-1@2x.png"; sourceTree = "<group>"; };
+		AFBD6BE71D2430C300060C13 /* alarmbell-2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "alarmbell-2@2x.png"; sourceTree = "<group>"; };
+		AFBD6BE81D2430C300060C13 /* alarmbell-3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "alarmbell-3@2x.png"; sourceTree = "<group>"; };
+		AFBD6BE91D2430C300060C13 /* checkmark-wshadow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "checkmark-wshadow.png"; sourceTree = "<group>"; };
+		AFBD6BEA1D2430C300060C13 /* checkmark-wshadow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "checkmark-wshadow@2x.png"; sourceTree = "<group>"; };
+		AFBD6BEB1D2430C300060C13 /* about-logo-down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "about-logo-down.png"; sourceTree = "<group>"; };
+		AFBD6BEC1D2430C300060C13 /* about-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "about-logo.png"; sourceTree = "<group>"; };
+		AFBD6BED1D2430C300060C13 /* alarm-note.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "alarm-note.png"; sourceTree = "<group>"; };
+		AFBD6BEE1D2430C300060C13 /* settings-note.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "settings-note.png"; sourceTree = "<group>"; };
+		AFBD6BEF1D2430C300060C13 /* multiClock_alarm_down@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "multiClock_alarm_down@2x.png"; sourceTree = "<group>"; };
+		AFBD6BF01D2430C300060C13 /* multiClock_alarm_up@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "multiClock_alarm_up@2x.png"; sourceTree = "<group>"; };
+		AFBD6BF11D2430C300060C13 /* multiClock_alarm_down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = multiClock_alarm_down.png; sourceTree = "<group>"; };
+		AFBD6BF21D2430C300060C13 /* multiClock_alarm_up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = multiClock_alarm_up.png; sourceTree = "<group>"; };
+		AFBD6BF31D2430C300060C13 /* multiClock_info_down@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "multiClock_info_down@2x.png"; sourceTree = "<group>"; };
+		AFBD6BF41D2430C300060C13 /* multiClock_info_down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = multiClock_info_down.png; sourceTree = "<group>"; };
+		AFBD6BF51D2430C300060C13 /* multiClock_info_up@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "multiClock_info_up@2x.png"; sourceTree = "<group>"; };
+		AFBD6BF61D2430C300060C13 /* multiClock_info_up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = multiClock_info_up.png; sourceTree = "<group>"; };
+		AFBD6C1B1D2431FF00060C13 /* SongListTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SongListTVC.swift; sourceTree = "<group>"; };
+		AFBD6C1C1D2431FF00060C13 /* MainTableVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTableVC.swift; sourceTree = "<group>"; };
+		AFBD6C1D1D2431FF00060C13 /* SettingTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingTVC.swift; sourceTree = "<group>"; };
+		AFBD6C1F1D2431FF00060C13 /* AlarmVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlarmVC.swift; sourceTree = "<group>"; };
+		AFBD6C211D2431FF00060C13 /* HelpVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelpVC.swift; sourceTree = "<group>"; };
+		AFBD6C221D2431FF00060C13 /* AboutVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutVC.swift; sourceTree = "<group>"; };
+		DE1E99481506BE77ED25FA2A /* Pods_New_MultiWatchApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_New_MultiWatchApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E48469134313FDC50A4B0630 /* Pods-New_MultiWatchApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-New_MultiWatchApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-New_MultiWatchApp/Pods-New_MultiWatchApp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +168,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6662CA635D8B02FC05E1F664 /* Pods_New_MultiWatchApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		303835F8A019680A95ED587C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1167EAC9F723EA8C7426FCDB /* Pods-New_MultiWatchApp.debug.xcconfig */,
+				E48469134313FDC50A4B0630 /* Pods-New_MultiWatchApp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8E10E96EE936177DD9FE33D9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DE1E99481506BE77ED25FA2A /* Pods_New_MultiWatchApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		AFBD6B7A1D24296C00060C13 = {
 			isa = PBXGroup;
 			children = (
 				AFBD6B851D24296D00060C13 /* New_MultiWatchApp */,
 				AFBD6B841D24296C00060C13 /* Products */,
+				303835F8A019680A95ED587C /* Pods */,
+				8E10E96EE936177DD9FE33D9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +213,155 @@
 		AFBD6B851D24296D00060C13 /* New_MultiWatchApp */ = {
 			isa = PBXGroup;
 			children = (
-				AFBD6B861D24296D00060C13 /* AppDelegate.swift */,
-				AFBD6B881D24296D00060C13 /* ViewController.swift */,
-				AFBD6B8A1D24296D00060C13 /* Main.storyboard */,
-				AFBD6B8D1D24296D00060C13 /* Assets.xcassets */,
-				AFBD6B8F1D24296D00060C13 /* LaunchScreen.storyboard */,
+				AF84C13A1D2474D000E42CC8 /* palettes.plist */,
+				AFBD6BB11D24303F00060C13 /* newCities.csv */,
+				AFBD6BD11D2430A800060C13 /* Alarm */,
+				AFBD6BD31D2430B600060C13 /* Font */,
+				AFBD6C1A1D2430C800060C13 /* Images */,
+				AFBD6BA91D242D6A00060C13 /* ClockView */,
+				AFBD6C2C1D2435A400060C13 /* General */,
+				AFBD6C2B1D24359000060C13 /* MainViewController */,
+				AFBD6C2E1D24360C00060C13 /* AlarmView */,
+				AFBD6C2D1D2435E100060C13 /* SettingView */,
+				AFBD6C2F1D24362200060C13 /* View */,
 				AFBD6B921D24296D00060C13 /* Info.plist */,
 			);
 			path = New_MultiWatchApp;
+			sourceTree = "<group>";
+		};
+		AFBD6BA91D242D6A00060C13 /* ClockView */ = {
+			isa = PBXGroup;
+			children = (
+				AFBD6BA61D242D6600060C13 /* ClockView.h */,
+				AFBD6BA71D242D6600060C13 /* ClockView.m */,
+			);
+			name = ClockView;
+			sourceTree = "<group>";
+		};
+		AFBD6BD11D2430A800060C13 /* Alarm */ = {
+			isa = PBXGroup;
+			children = (
+				AFBD6BB51D2430A200060C13 /* 909 at 117-long.caf */,
+				AFBD6BB61D2430A200060C13 /* Arpeggiate-4-long.caf */,
+				AFBD6BB71D2430A200060C13 /* Boss 110-3-long.caf */,
+				AFBD6BB81D2430A200060C13 /* Calculating-2-long.caf */,
+				AFBD6BB91D2430A200060C13 /* Jitterchord-2-long.caf */,
+				AFBD6BBA1D2430A200060C13 /* Noise Chip-long.caf */,
+				AFBD6BBB1D2430A200060C13 /* wBeep-long.caf */,
+				AFBD6BBC1D2430A200060C13 /* 909 at 117.wav */,
+				AFBD6BBD1D2430A200060C13 /* Arpeggiate.mp3 */,
+				AFBD6BBE1D2430A200060C13 /* Boss 110.wav */,
+				AFBD6BBF1D2430A200060C13 /* Calculating.mp3 */,
+				AFBD6BC01D2430A200060C13 /* Jitterchord.mp3 */,
+				AFBD6BC11D2430A200060C13 /* Noise Chip.mp3 */,
+				AFBD6BC21D2430A200060C13 /* wBeep.wav */,
+			);
+			name = Alarm;
+			sourceTree = "<group>";
+		};
+		AFBD6BD31D2430B600060C13 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				AFBD6BD21D2430B300060C13 /* Helvetica-edit.ttf */,
+			);
+			name = Font;
+			sourceTree = "<group>";
+		};
+		AFBD6C1A1D2430C800060C13 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				AFBD6BB31D24306000060C13 /* seg.png */,
+				AFBD6BD41D2430C300060C13 /* Splash.png */,
+				AFBD6BD51D2430C300060C13 /* Splash@2x.png */,
+				AFBD6BD61D2430C300060C13 /* Splash@3x.png */,
+				AFBD6BD71D2430C300060C13 /* alarm-note-jp.png */,
+				AFBD6BD81D2430C300060C13 /* alarm-note4-jp.png */,
+				AFBD6BD91D2430C300060C13 /* alarm-note4-jp@2x.png */,
+				AFBD6BDA1D2430C300060C13 /* instructions.png */,
+				AFBD6BDB1D2430C300060C13 /* instructions@2x.png */,
+				AFBD6BDC1D2430C300060C13 /* instructions-jp.png */,
+				AFBD6BDD1D2430C300060C13 /* instructions-jp@2x.png */,
+				AFBD6BDE1D2430C300060C13 /* settings-note-jp.png */,
+				AFBD6BDF1D2430C300060C13 /* about-background.png */,
+				AFBD6BE01D2430C300060C13 /* about-background@2x.png */,
+				AFBD6BE11D2430C300060C13 /* alarm-note4.png */,
+				AFBD6BE21D2430C300060C13 /* alarm-note4@2x.png */,
+				AFBD6BE31D2430C300060C13 /* alarmbell-1.png */,
+				AFBD6BE41D2430C300060C13 /* alarmbell-2.png */,
+				AFBD6BE51D2430C300060C13 /* alarmbell-3.png */,
+				AFBD6BE61D2430C300060C13 /* alarmbell-1@2x.png */,
+				AFBD6BE71D2430C300060C13 /* alarmbell-2@2x.png */,
+				AFBD6BE81D2430C300060C13 /* alarmbell-3@2x.png */,
+				AFBD6BE91D2430C300060C13 /* checkmark-wshadow.png */,
+				AFBD6BEA1D2430C300060C13 /* checkmark-wshadow@2x.png */,
+				AFBD6BEB1D2430C300060C13 /* about-logo-down.png */,
+				AFBD6BEC1D2430C300060C13 /* about-logo.png */,
+				AFBD6BED1D2430C300060C13 /* alarm-note.png */,
+				AFBD6BEE1D2430C300060C13 /* settings-note.png */,
+				AFBD6BEF1D2430C300060C13 /* multiClock_alarm_down@2x.png */,
+				AFBD6BF01D2430C300060C13 /* multiClock_alarm_up@2x.png */,
+				AFBD6BF11D2430C300060C13 /* multiClock_alarm_down.png */,
+				AFBD6BF21D2430C300060C13 /* multiClock_alarm_up.png */,
+				AFBD6BF31D2430C300060C13 /* multiClock_info_down@2x.png */,
+				AFBD6BF41D2430C300060C13 /* multiClock_info_down.png */,
+				AFBD6BF51D2430C300060C13 /* multiClock_info_up@2x.png */,
+				AFBD6BF61D2430C300060C13 /* multiClock_info_up.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		AFBD6C2B1D24359000060C13 /* MainViewController */ = {
+			isa = PBXGroup;
+			children = (
+				AFBD6B9A1D242C4800060C13 /* HomeClockVC.swift */,
+				AFBD6B9B1D242C4800060C13 /* DigitClockVC.swift */,
+				AFBD6B9C1D242C4800060C13 /* ImgClockVC.swift */,
+				AFBD6B9D1D242C4800060C13 /* BigDigitClockVC.swift */,
+				AFBD6B981D242B4D00060C13 /* ContainerVC.swift */,
+			);
+			name = MainViewController;
+			sourceTree = "<group>";
+		};
+		AFBD6C2C1D2435A400060C13 /* General */ = {
+			isa = PBXGroup;
+			children = (
+				AFBD6BA21D242D1C00060C13 /* Utilities.swift */,
+				AFBD6BA31D242D1C00060C13 /* MainParameters.swift */,
+				AFBD6BB01D242E5600060C13 /* New_MultiWatchApp-Header.h */,
+				AFBD6B861D24296D00060C13 /* AppDelegate.swift */,
+			);
+			name = General;
+			sourceTree = "<group>";
+		};
+		AFBD6C2D1D2435E100060C13 /* SettingView */ = {
+			isa = PBXGroup;
+			children = (
+				AFBD6C1C1D2431FF00060C13 /* MainTableVC.swift */,
+				AFBD6C1D1D2431FF00060C13 /* SettingTVC.swift */,
+				AFBD6C211D2431FF00060C13 /* HelpVC.swift */,
+				AFBD6C221D2431FF00060C13 /* AboutVC.swift */,
+				AF84C1381D24728E00E42CC8 /* CollectionVC.swift */,
+			);
+			name = SettingView;
+			sourceTree = "<group>";
+		};
+		AFBD6C2E1D24360C00060C13 /* AlarmView */ = {
+			isa = PBXGroup;
+			children = (
+				AFBD6C1B1D2431FF00060C13 /* SongListTVC.swift */,
+				AFBD6C1F1D2431FF00060C13 /* AlarmVC.swift */,
+				AF84C1361D2458BF00E42CC8 /* AlarmMainVC.swift */,
+			);
+			name = AlarmView;
+			sourceTree = "<group>";
+		};
+		AFBD6C2F1D24362200060C13 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AFBD6B8D1D24296D00060C13 /* Assets.xcassets */,
+				AFBD6B8F1D24296D00060C13 /* LaunchScreen.storyboard */,
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +371,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AFBD6B951D24296D00060C13 /* Build configuration list for PBXNativeTarget "New_MultiWatchApp" */;
 			buildPhases = (
+				95E0292530C63A04D15DA7FD /* [CP] Check Pods Manifest.lock */,
 				AFBD6B7F1D24296C00060C13 /* Sources */,
 				AFBD6B801D24296C00060C13 /* Frameworks */,
 				AFBD6B811D24296C00060C13 /* Resources */,
+				F20DB1D85F1167B67E127AFD /* [CP] Embed Pods Frameworks */,
+				125F1193D45AA81033103F86 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -122,35 +425,141 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AFBD6BD01D2430A200060C13 /* wBeep.wav in Resources */,
+				AFBD6BFB1D2430C300060C13 /* alarm-note4-jp.png in Resources */,
+				AFBD6C081D2430C300060C13 /* alarmbell-3.png in Resources */,
+				AFBD6BFD1D2430C300060C13 /* instructions.png in Resources */,
+				AFBD6C111D2430C300060C13 /* settings-note.png in Resources */,
+				AFBD6C161D2430C300060C13 /* multiClock_info_down@2x.png in Resources */,
+				AFBD6BB21D24303F00060C13 /* newCities.csv in Resources */,
+				AFBD6C131D2430C300060C13 /* multiClock_alarm_up@2x.png in Resources */,
+				AFBD6BC61D2430A200060C13 /* Calculating-2-long.caf in Resources */,
+				AFBD6C021D2430C300060C13 /* about-background.png in Resources */,
+				AFBD6C061D2430C300060C13 /* alarmbell-1.png in Resources */,
+				AFBD6C041D2430C300060C13 /* alarm-note4.png in Resources */,
+				AFBD6BF91D2430C300060C13 /* Splash@3x.png in Resources */,
+				AFBD6BCA1D2430A200060C13 /* 909 at 117.wav in Resources */,
+				AFBD6BFF1D2430C300060C13 /* instructions-jp.png in Resources */,
+				AFBD6BCC1D2430A200060C13 /* Boss 110.wav in Resources */,
+				AFBD6C071D2430C300060C13 /* alarmbell-2.png in Resources */,
+				AFBD6BB41D24306000060C13 /* seg.png in Resources */,
+				AFBD6C0B1D2430C300060C13 /* alarmbell-3@2x.png in Resources */,
 				AFBD6B911D24296D00060C13 /* LaunchScreen.storyboard in Resources */,
+				AFBD6C101D2430C300060C13 /* alarm-note.png in Resources */,
+				AFBD6C121D2430C300060C13 /* multiClock_alarm_down@2x.png in Resources */,
 				AFBD6B8E1D24296D00060C13 /* Assets.xcassets in Resources */,
-				AFBD6B8C1D24296D00060C13 /* Main.storyboard in Resources */,
+				AFBD6C141D2430C300060C13 /* multiClock_alarm_down.png in Resources */,
+				AFBD6C191D2430C300060C13 /* multiClock_info_up.png in Resources */,
+				AFBD6C181D2430C300060C13 /* multiClock_info_up@2x.png in Resources */,
+				AFBD6BCD1D2430A200060C13 /* Calculating.mp3 in Resources */,
+				AFBD6BF81D2430C300060C13 /* Splash@2x.png in Resources */,
+				AF84C13B1D2474D000E42CC8 /* palettes.plist in Resources */,
+				AFBD6C051D2430C300060C13 /* alarm-note4@2x.png in Resources */,
+				AFBD6C0A1D2430C300060C13 /* alarmbell-2@2x.png in Resources */,
+				AFBD6BC41D2430A200060C13 /* Arpeggiate-4-long.caf in Resources */,
+				AFBD6BC81D2430A200060C13 /* Noise Chip-long.caf in Resources */,
+				AFBD6BC91D2430A200060C13 /* wBeep-long.caf in Resources */,
+				AFBD6BC71D2430A200060C13 /* Jitterchord-2-long.caf in Resources */,
+				AFBD6C031D2430C300060C13 /* about-background@2x.png in Resources */,
+				AFBD6C0C1D2430C300060C13 /* checkmark-wshadow.png in Resources */,
+				AFBD6BC31D2430A200060C13 /* 909 at 117-long.caf in Resources */,
+				AFBD6C091D2430C300060C13 /* alarmbell-1@2x.png in Resources */,
+				AFBD6C0E1D2430C300060C13 /* about-logo-down.png in Resources */,
+				AFBD6BC51D2430A200060C13 /* Boss 110-3-long.caf in Resources */,
+				AFBD6BCB1D2430A200060C13 /* Arpeggiate.mp3 in Resources */,
+				AFBD6BF71D2430C300060C13 /* Splash.png in Resources */,
+				AFBD6BFA1D2430C300060C13 /* alarm-note-jp.png in Resources */,
+				AFBD6C171D2430C300060C13 /* multiClock_info_down.png in Resources */,
+				AFBD6C001D2430C300060C13 /* instructions-jp@2x.png in Resources */,
+				AFBD6C0F1D2430C300060C13 /* about-logo.png in Resources */,
+				AFBD6BFC1D2430C300060C13 /* alarm-note4-jp@2x.png in Resources */,
+				AFBD6BFE1D2430C300060C13 /* instructions@2x.png in Resources */,
+				AFBD6BCF1D2430A200060C13 /* Noise Chip.mp3 in Resources */,
+				AFBD6C151D2430C300060C13 /* multiClock_alarm_up.png in Resources */,
+				AFBD6BCE1D2430A200060C13 /* Jitterchord.mp3 in Resources */,
+				AFBD6C0D1D2430C300060C13 /* checkmark-wshadow@2x.png in Resources */,
+				AFBD6C011D2430C300060C13 /* settings-note-jp.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		125F1193D45AA81033103F86 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-New_MultiWatchApp/Pods-New_MultiWatchApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		95E0292530C63A04D15DA7FD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F20DB1D85F1167B67E127AFD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-New_MultiWatchApp/Pods-New_MultiWatchApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		AFBD6B7F1D24296C00060C13 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AFBD6B891D24296D00060C13 /* ViewController.swift in Sources */,
+				AFBD6C271D2431FF00060C13 /* AlarmVC.swift in Sources */,
+				AF84C1371D2458BF00E42CC8 /* AlarmMainVC.swift in Sources */,
+				AFBD6BA81D242D6600060C13 /* ClockView.m in Sources */,
+				AFBD6BA51D242D1C00060C13 /* MainParameters.swift in Sources */,
+				AFBD6BA01D242C4800060C13 /* ImgClockVC.swift in Sources */,
+				AFBD6B9E1D242C4800060C13 /* HomeClockVC.swift in Sources */,
+				AFBD6C241D2431FF00060C13 /* MainTableVC.swift in Sources */,
+				AFBD6C231D2431FF00060C13 /* SongListTVC.swift in Sources */,
+				AFBD6C251D2431FF00060C13 /* SettingTVC.swift in Sources */,
+				AF84C1391D24728E00E42CC8 /* CollectionVC.swift in Sources */,
+				AFBD6C291D2431FF00060C13 /* HelpVC.swift in Sources */,
+				AFBD6BA41D242D1C00060C13 /* Utilities.swift in Sources */,
+				AFBD6B991D242B4D00060C13 /* ContainerVC.swift in Sources */,
+				AFBD6C2A1D2431FF00060C13 /* AboutVC.swift in Sources */,
 				AFBD6B871D24296D00060C13 /* AppDelegate.swift in Sources */,
+				AFBD6BA11D242C4800060C13 /* BigDigitClockVC.swift in Sources */,
+				AFBD6B9F1D242C4800060C13 /* DigitClockVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		AFBD6B8A1D24296D00060C13 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				AFBD6B8B1D24296D00060C13 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		AFBD6B8F1D24296D00060C13 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -199,7 +608,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -239,7 +648,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -249,23 +658,29 @@
 		};
 		AFBD6B961D24296D00060C13 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1167EAC9F723EA8C7426FCDB /* Pods-New_MultiWatchApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = New_MultiWatchApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.iCloudTest.New-MultiWatchApp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "New_MultiWatchApp-Header.h";
 			};
 			name = Debug;
 		};
 		AFBD6B971D24296D00060C13 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E48469134313FDC50A4B0630 /* Pods-New_MultiWatchApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = New_MultiWatchApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.iCloudTest.New-MultiWatchApp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "New_MultiWatchApp-Header.h";
 			};
 			name = Release;
 		};
@@ -288,6 +703,7 @@
 				AFBD6B971D24296D00060C13 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
